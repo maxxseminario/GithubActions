@@ -34,7 +34,7 @@ namespace GithubActionsLab
         [Test]
         public void Subtract_Valid_Seminario()
         {
-            Assert.AreEqual(5, Program.Subtract("2", "2"));     //THIS IS THE FAILING TEST
+            Assert.AreEqual(0, Program.Subtract("2", "2"));   
             Assert.AreEqual(1, Program.Subtract("3", "2"));
             Assert.AreEqual(2, Program.Subtract("9", "7"));
         }
